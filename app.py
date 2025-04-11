@@ -5,7 +5,7 @@ import os
 import google.generativeai as genai
 
 # --- Directly configure API key (⚠️ use env var in production) ---
-GEMINI_API_KEY = "AIzaSyAgO5I6sN-2euuM_ZeomQG-ZVZ2EYqEOA4"
+GEMINI_API_KEY = "PASTE YOUR GOOGLE API"
 genai.configure(api_key=GEMINI_API_KEY)
 
 # --- File Readers ---
